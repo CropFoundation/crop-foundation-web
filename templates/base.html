@@ -11,21 +11,25 @@
           rel="stylesheet">
     <title>Crop Foundation - {% block title %}{% endblock %}</title>
     {% endblock %}
+    <script src="https://kit.fontawesome.com/6b57d6ecf1.js" crossorigin="anonymous"></script>
 </head>
 <body class="full-page main-bg-color">
 
 <div class="content-fluid main-page-size main-nav-space" id="main-navigation" style="height: fit-content">
     <div class="row">
         <div class="col">
-            1 of 2
+            <div class="img-wrapper" style="width: 80px;height: 80px;margin-left: 0;">
+                <img class="img-fluid" src="{{url_for('static',filename = 'images/drawable-hdpi/Group 1.png')}}"
+                     alt="crop foundation">
+            </div>
         </div>
         <div class="col col-lg-2">
             <div class="row">
-                <div class="col">
-                    1 of 2
+                <div class="col" style="text-align: center;">
+                    <i class="fa-solid fa-download" style="font-size: 22px;"></i>
                 </div>
                 <div class="col">
-                    2 of 2
+                    <i class="fa-solid fa-bars" style="font-size: 22px;"></i>
                 </div>
             </div>
         </div>
