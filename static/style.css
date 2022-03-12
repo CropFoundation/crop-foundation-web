@@ -1,0 +1,32 @@
+.main-page-size {
+    width: 90%;
+    margin: auto;
+}
+
+.full-page {
+    width: 100%;
+    height: 100vh;
+}
+
+.main-font {
+    font-family: 'Noto Serif Display', serif;
+}
+
+.sub-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-space {
+    height: fit-content;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+}
+
+.main-nav-space {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#hint {
+    width: 50%;
+}

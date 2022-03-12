@@ -1,28 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Crop Foundation</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
 
-<main class="main-body">
-    <header class="main-header">
+{% block content %}
 
-        <nav id="main-navigation">
+<div id="hint">
+    <div class="category">
+        <h6>{{'application'|upper}}</h6>
+    </div>
 
-            <ul class="main-nav-wrapper">
+    <div class="page-header main-font">
+        <h1 class="display-1">{{'planter'|title}}</h1>
+    </div>
 
-                <li class="main-logo">logo</li>
-                <li class="download">downBtn</li>
-                <li class="main-collapse-menu">menuBtn</li>
+    <div class="details">
+        <p>{{'This line of text is meant to be treated as no longer accurate. This line of text is meant to be treated
+            as deleted text.'|capitalize}}</p>
+    </div>
+</div>
 
-            </ul>
-
-        </nav>
-
-    </header>
-</main>
-
-</body>
-</html>
+{% endblock %}
