@@ -290,8 +290,25 @@ a.btn, .btn, a.btn1, .btn1 {
 }
 
 @media (max-width: 1441px) {
+    .bg-1 {
+        background-position-x: 172%;
+        background-position-y: 16%;
+    }
+
     .img-wrapper {
-        transform: scale3d(0.9, 0.9, 0.9);
+        transform: scale3d(0.7, 0.7, 0.7);
+    }
+
+    .planter-wrap {
+        transform: matrix3d(0.7, 0, 0, 0, 0, 0.7, 0, 0, 0, 0, 1, 0, -29, -232, 0, 1) !important;
+    }
+
+    .custom-wrap-1 {
+        transform: rotate(15deg);
+    }
+
+    .custom-wrap-2 {
+        transform: rotate(-15deg);
     }
 
     #img {
@@ -301,7 +318,7 @@ a.btn, .btn, a.btn1, .btn1 {
 
 @media (max-width: 1201px) {
     .img-wrapper {
-        transform: scale3d(0.8, 0.8, 0.8);
+        transform: scale3d(0.7, 0.7, 0.7);
     }
 
     #img {
@@ -316,6 +333,15 @@ a.btn, .btn, a.btn1, .btn1 {
 
     .full-width {
         width: 104%;
+    }
+
+    .bg-1 {
+        background-position-x: 172%;
+        background-position-y: 16%;
+    }
+
+    .planter-wrap {
+        transform: matrix3d(0.7, 0, 0, 0, 0, 0.7, 0, 0, 0, 0, 1, 0, -29, -232, 0, 1) !important;
     }
 
     #img {
