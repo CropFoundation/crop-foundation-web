@@ -26,6 +26,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    background-attachment: fixed;
+}
+
+.bg-to-section-repeat {
+    background-image: url("images/bg-1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: inherit;
 }
 
 .main-page-size {
