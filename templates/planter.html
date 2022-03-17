@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Planter{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block body %}
+
+<body class="main-bg-color">
+
+<div class="content-fluid main-page-size main-nav-space" id="main-navigation" style="height: fit-content">
+    <div class="row">
+        <div class="col">
+            <div class="img-wrapper menu-icons">
+                <img class="img-fluid icon" src="{{url_for('static',filename = 'images/drawable-hdpi/Group 1.png')}}"
+                     alt="crop foundation">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="content-fluid main-page-size main-space">
+
+    <div id="hint">
+        <div class="category main-text-space">
+            <h6>{{'application'|upper}}</h6>
+        </div>
+
+        <div class="page-header main-font main-text-space">
+            <h1 class="display-1">{{'planter'|title}}</h1>
+        </div>
+
+        <div class="more-bts">
+            <a href="/planter" data-splitting=""
+               class="btn more-btn scrolla-element-anim-1 words chars splitting"
+               style="--word-total:2; --char-total:12;">Download now</a>
+        </div>
+    </div>
+
+    <div id="img">
+        <div class="img-wrapper">
+            <img class="img-fluid" src="{{url_for('static',filename = 'images/Group 19.png')}}" alt="planter">
+        </div>
+    </div>
+</div>
+
+</body>
+
+{% endblock %}
