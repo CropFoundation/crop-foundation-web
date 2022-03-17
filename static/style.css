@@ -321,9 +321,17 @@ a.btn, .btn, a.btn1, .btn1 {
         transform: scale3d(0.7, 0.7, 0.7);
     }
 
+    .section-height {
+        height: 52vh;
+    }
+
     .bg-1 {
         background-position-x: -590%;
         background-position-y: 24%;
+    }
+
+    .planter-text-wrap {
+        padding-top: 4vh !important;
     }
 
     .planter-report-3 {
@@ -361,11 +369,20 @@ a.btn, .btn, a.btn1, .btn1 {
 
 @media (max-width: 1025px) {
     .full-page {
-        width: 112.2%;
+        width: 100%;
     }
 
     .full-width {
-        width: 104%;
+        width: 100%;
+    }
+
+    .section-height {
+        height: 52vh;
+    }
+
+    .main-space-extra {
+        margin-top: 4vh !important;
+        margin-bottom: 4vh !important;
     }
 
     .bg-1 {
@@ -405,11 +422,20 @@ a.btn, .btn, a.btn1, .btn1 {
 @media (max-width: 769px) {
 
     .full-page {
-        width: 132.9%;
+        width: 100%;
     }
 
     .full-width {
-        width: 124%;
+        width: 100%;
+    }
+
+    .section-height {
+        height: 52vh;
+    }
+
+    .main-space-extra {
+        margin-top: 4vh !important;
+        margin-bottom: 4vh !important;
     }
 
     .main-space {
@@ -448,11 +474,11 @@ a.btn, .btn, a.btn1, .btn1 {
 
 @media (max-width: 481px) {
     .full-page {
-        width: 160%;
+        width: 100%;
     }
 
     .full-width {
-        width: 180%;
+        width: 100%;
     }
 
     .img-wrapper {
