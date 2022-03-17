@@ -191,6 +191,38 @@ a.btn, .btn {
     background-color: #F4FFFA;
 }
 
+.planter-camera {
+    transform: rotate(352deg);
+}
+
+.planter-camera-wrap {
+    margin: 0;
+    position: absolute;
+    transform: matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 85, -232, 0, 1);
+}
+
+.planter-camera-text-wrap {
+    flex-direction: row-reverse;
+    align-content: center;
+    padding-top: 24vh;
+}
+
+.planter-camera-vert-cen {
+    padding: 4vh;
+}
+
+.section-title {
+    margin-bottom: 4vh;
+}
+
+.section-text p {
+    font-size: 1.5rem;;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+}
+
 /*responsive*/
 @media (max-width: 2561px) {
     #img {
