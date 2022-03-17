@@ -6,6 +6,28 @@
     background-color: #02733E;
 }
 
+.bg-1 {
+    background-image: url("images/bg-1.png");
+    position: absolute;
+    width: 142vh;
+    height: 97vh;
+    top: 0;
+    right: -121px;
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position-x: 120%;
+}
+
+.leaf-bg {
+    background-image: url("images/bg-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .main-page-size {
     width: 90%;
     margin: auto;
@@ -246,6 +268,10 @@ a.btn, .btn, a.btn1, .btn1 {
 
 .custom-wrap-2 {
     transform: rotate(-15deg);
+}
+
+.extra-vert {
+    margin-top: -372px;
 }
 
 /*responsive*/
