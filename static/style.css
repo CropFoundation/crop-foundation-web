@@ -314,6 +314,10 @@ a.btn, .btn, a.btn1, .btn1 {
         width: 112.2%;
     }
 
+    .full-width {
+        width: 104%;
+    }
+
     #img {
         transform: translate(10%, -34%);
     }
@@ -323,6 +327,10 @@ a.btn, .btn, a.btn1, .btn1 {
 
     .full-page {
         width: 132.9%;
+    }
+
+    .full-width {
+        width: 124%;
     }
 
     .main-space {
@@ -362,6 +370,10 @@ a.btn, .btn, a.btn1, .btn1 {
 @media (max-width: 481px) {
     .full-page {
         width: 160%;
+    }
+
+    .full-width {
+        width: 180%;
     }
 
     .img-wrapper {
