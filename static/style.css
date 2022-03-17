@@ -72,23 +72,24 @@
     padding: 0.5rem 2.5rem;
 }
 
-.btn {
+.btn, .btn1 {
     background-color: unset;
     border: none;
 }
 
-.more-bts {
+.more-bts, .more-bts1 {
     text-align: left;
     width: fit-content;
     height: fit-content;
     padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 
-.btn.more-btn {
+.btn.more-btn, .btn1.more-btn1 {
     color: #18181b;
 }
 
-.btn.more-btn {
+.btn.more-btn, .btn1.more-btn1 {
     display: inline-block;
     border: none;
     font-size: 16px;
@@ -97,7 +98,7 @@
     padding: 16px;
 }
 
-a.btn, .btn {
+a.btn, .btn, a.btn1, .btn1 {
     padding: 0 50px;
     position: relative;
     overflow: hidden;
@@ -125,7 +126,7 @@ a.btn, .btn {
     --char-center: calc((var(--char-total) - 1) / 2);
 }
 
-.btn {
+.btn, .btn1 {
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
@@ -145,7 +146,7 @@ a.btn, .btn {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.btn:after {
+.btn:after, .btn1:after {
     content: '';
     position: absolute;
     left: -77%;
@@ -160,7 +161,7 @@ a.btn, .btn {
     z-index: -1;
 }
 
-.btn:hover::after {
+.btn:hover::after, .btn1:hover::after {
     content: '';
     position: absolute;
     left: 0;
@@ -195,19 +196,19 @@ a.btn, .btn {
     transform: rotate(352deg);
 }
 
-.planter-camera-wrap {
+.planter-wrap {
     margin: 0;
     position: absolute;
     transform: matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, 85, -232, 0, 1);
 }
 
-.planter-camera-text-wrap {
+.planter-text-wrap {
     flex-direction: row-reverse;
     align-content: center;
     padding-top: 24vh;
 }
 
-.planter-camera-vert-cen {
+.planter-vert-cen {
     padding: 4vh;
 }
 
@@ -221,6 +222,30 @@ a.btn, .btn {
 
 .section-title h2 {
     font-size: 2.5rem;
+}
+
+.planter-report-1 {
+    transform: translate(-175px, -54px);
+}
+
+.planter-report-2 {
+    transform: translate(-40px, 8px);
+}
+
+.planter-report-3 {
+    transform: translate(97px, 71px);
+}
+
+.mock-up-rescale {
+    transform: scale3d(0.9, 0.9, 0.9);
+}
+
+.custom-wrap-1 {
+    transform: rotate(15deg);
+}
+
+.custom-wrap-2 {
+    transform: rotate(-15deg);
 }
 
 /*responsive*/
