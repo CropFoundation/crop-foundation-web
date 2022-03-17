@@ -369,16 +369,36 @@ a.btn, .btn, a.btn1, .btn1 {
     }
 
     .bg-1 {
-        background-position-x: 172%;
+        background-position-x: -136%;
         background-position-y: 16%;
     }
 
     .planter-wrap {
-        transform: matrix3d(0.7, 0, 0, 0, 0, 0.7, 0, 0, 0, 0, 1, 0, -29, -232, 0, 1) !important;
+        transform: matrix3d(0.6, 0, 0, 0, 0, 0.6, 0, 0, 0, 0, 1, 0, -124, -232, 0, 1) !important;
     }
 
     #img {
         transform: translate(10%, -34%);
+    }
+
+    .img-extra {
+        transform: translate(0%, -34%) !important;
+    }
+
+    .planter-text-wrap {
+        padding-top: 9vh !important;
+    }
+
+    .crop-type {
+        transform: matrix3d(0.8, 0, 0, 0, 0, 0.8, 0, 0, 0, 0, 1, 0, -2, -392, 0, 1) !important;
+    }
+
+    .section-text p {
+        font-size: 1.2rem;;
+    }
+
+    .section-title h2 {
+        font-size: 2rem;
     }
 }
 
