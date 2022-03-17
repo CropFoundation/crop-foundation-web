@@ -1,0 +1,207 @@
+{% extends "base.html" %}
+{% block title %}Planter{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block body %}
+
+<body class="main-bg-color full-width" style="overflow-x: hidden">
+
+<div class="content-fluid main-page-size main-nav-space" id="main-navigation" style="height: fit-content">
+    <div class="row">
+        <div class="col">
+            <div class="img-wrapper menu-icons">
+                <img class="img-fluid icon" src="{{url_for('static',filename = 'images/drawable-hdpi/Group 1.png')}}"
+                     alt="crop foundation">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="content-fluid main-page-size main-space">
+
+    <div id="hint">
+        <div class="category main-text-space">
+            <h6>{{'application'|upper}}</h6>
+        </div>
+
+        <div class="page-header main-font main-text-space">
+            <h1 class="display-1">{{'planter'|title}}</h1>
+        </div>
+
+        <div class="more-bts">
+            <a href="/download" data-splitting=""
+               class="btn more-btn scrolla-element-anim-1 words chars splitting"
+               style="--word-total:2; --char-total:12;">Download now</a>
+        </div>
+    </div>
+
+    <div id="img" class="img-extra">
+        <div class="img-wrapper elavation">
+            <img class="img-fluid" src="{{url_for('static',filename = 'images/Group 19.png')}}" alt="planter">
+        </div>
+    </div>
+
+    <div class="bg-1"></div>
+</div>
+
+<div class="section-wrapper">
+    <div class="content-fluid main-page-size main-space what-is section-height">
+        <div class="camera-img">
+            <div class="img-wrapper planter-wrap">
+                <img class="img-fluid icon planter-camera"
+                     src="{{url_for('static',filename = 'images/Group 16.png')}}"
+                     alt="planter camera">
+            </div>
+        </div>
+        <div class="row planter-text-wrap">
+            <div class="col col-lg-6 planter-vert-cen">
+                <div class="section-title">
+                    <h2 class="main-font">Planter can identify leaf disease by simply taking photo of your plant.
+                    </h2>
+                </div>
+                <div class="section-text">
+                    <p>only you need to do is take a picture of your crops. that's it. planter
+                        will examine your crops and tell you are either your crops are affected by a disease or not.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="padding: 12vh 0">
+    <div class="content-fluid main-page-size main-space section-height">
+        <div class="camera-img">
+            <div class="img-wrapper planter-wrap">
+                <img class="img-fluid icon planter-report-1"
+                     src="{{url_for('static',filename = 'images/Group 21.png')}}"
+                     alt="planter camera">
+            </div>
+            <div class="img-wrapper planter-wrap">
+                <img class="img-fluid icon planter-report-2"
+                     src="{{url_for('static',filename = 'images/Group 25.png')}}"
+                     alt="planter camera">
+            </div>
+            <div class="img-wrapper planter-wrap">
+                <img class="img-fluid icon planter-report-3"
+                     src="{{url_for('static',filename = 'images/Group 26.png')}}"
+                     alt="planter camera">
+            </div>
+        </div>
+
+        <div class="row planter-text-wrap" style="padding-top: 12vh;">
+            <div class="col col-lg-6 planter-vert-cen">
+                <div class="section-title">
+                    <h2 class="main-font">
+                        Because Planter also provide more details and solutions your life will be easy.
+                    </h2>
+                </div>
+                <div class="section-text">
+                    <p>planter will provide various kind of information to you if your crop affected by a disease. which
+                        are symptom with great details and example images. also, two kind of recommendations which will
+                        help you to prevent from future troubles and how to cure. if you like to organic controlling
+                        that also covered by planter.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-wrapper leaf-bg">
+    <div class="content-fluid main-page-size main-space what-is section-height">
+        <div class="row planter-text-wrap" style="flex-direction: row; padding-top: 12vh;">
+            <div class="col col-lg-6 planter-vert-cen">
+                <div class="section-title">
+                    <h2 class="main-font">12 crop types and 42 overall diseases can identify. #awesome
+                    </h2>
+                </div>
+                <div class="section-text">
+                    <p>planter can identify apple, banana, cherry, corn, grape, orange, bell pepper, potato, rice,
+                        strawberry, tea, tomato. And common diseases can affect those plants and healthy plants.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col col-lg-6 elavation camera-img">
+                <div class="img-wrapper planter-wrap crop-type">
+                    <img class="img-fluid icon planter-camera"
+                         src="{{url_for('static',filename = 'images/Group 22.png')}}"
+                         alt="planter camera">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="padding: 12vh 0">
+    <div class="content-fluid main-page-size main-space section-height section-height-extra">
+
+        <div class="col col-lg-4 planter-vert-cen extra-vert hidden-text">
+            <div class="section-title">
+                <h2 class="main-font">
+                    Cultivation tips will help you to go through various stages of the season.
+                </h2>
+            </div>
+            <div class="section-text">
+                <p>
+                    improve your cultivation knowledge with our cultivation tips with various stages of cultivation
+                    cycle. it will help you to improve your knowledge about various crops.
+                </p>
+            </div>
+        </div>
+
+        <div class="row planter-text-wrap camera-img" style="padding-top: 6vh;">
+            <div class="col col-lg-4">
+                <div class="img-wrapper custom-wrap-1">
+                    <img class="img-fluid icon mock-up-rescale"
+                         src="{{url_for('static',filename = 'images/Group 24.png')}}"
+                         alt="planter camera">
+                </div>
+            </div>
+            <div class="col col-lg-4 planter-vert-cen extra-vert">
+                <div class="section-title">
+                    <h2 class="main-font">
+                        Cultivation tips will help you to go through various stages of the season.
+                    </h2>
+                </div>
+                <div class="section-text">
+                    <p>
+                        improve your cultivation knowledge with our cultivation tips with various stages of cultivation
+                        cycle. it will help you to improve your knowledge about various crops.
+                    </p>
+                </div>
+            </div>
+            <div class="col col-lg-4">
+                <div class="img-wrapper custom-wrap-2">
+                    <img class="img-fluid icon mock-up-rescale"
+                         src="{{url_for('static',filename = 'images/Group 23.png')}}"
+                         alt="planter camera">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-wrapper bg-to-section-repeat">
+    <div class="content-fluid main-page-size main-space main-space-extra">
+        <div class="row">
+            <div class="col col-lg-4"></div>
+
+            <div class="more-bts1 col col-lg-4" style="text-align: center;">
+                <a href="/download" data-splitting=""
+                   class="btn1 more-btn1 scrolla-element-anim-1 words chars splitting"
+                   style="--word-total:2; --char-total:12; z-index: 1;">Download now</a>
+            </div>
+
+            <div class="col col-lg-4"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+{% endblock %}
