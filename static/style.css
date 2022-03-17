@@ -175,6 +175,22 @@ a.btn, .btn {
     z-index: -1;
 }
 
+/*detail page*/
+.elavation {
+    z-index: 100;
+}
+
+.section-height {
+    height: 64vh;
+}
+
+.section-wrapper {
+    width: 100%;
+    padding: 12vh;
+    height: fit-content;
+    background-color: #F4FFFA;
+}
+
 /*responsive*/
 @media (max-width: 2561px) {
     #img {
