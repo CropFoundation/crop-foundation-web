@@ -321,6 +321,39 @@ a.btn, .btn, a.btn1, .btn1 {
         transform: scale3d(0.7, 0.7, 0.7);
     }
 
+    .bg-1 {
+        background-position-x: -590%;
+        background-position-y: 24%;
+    }
+
+    .planter-report-3 {
+        transform: translate(186px, 71px);
+    }
+
+    .planter-report-2 {
+        transform: translate(62px, 8px);
+    }
+
+    .planter-report-1 {
+        transform: translate(-42px, -54px);
+    }
+
+    .planter-wrap {
+        transform: matrix3d(0.7, 0, 0, 0, 0, 0.7, 0, 0, 0, 0, 1, 0, -112, -232, 0, 1) !important;
+    }
+
+    .crop-type {
+        transform: matrix3d(0.7, 0, 0, 0, 0, 0.7, 0, 0, 0, 0, 1, 0, -16, -438, 0, 1) !important;
+    }
+
+    .custom-wrap-1 {
+        transform: rotate(15deg);
+    }
+
+    .custom-wrap-2 {
+        transform: rotate(-15deg);
+    }
+
     #img {
         transform: translate(10%, -34%);
     }
